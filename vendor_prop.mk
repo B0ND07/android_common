@@ -134,6 +134,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.media.recorder-max-base-layer-fps=60
 
+# Misc tweaks
+PRODUCT_PROPERTY_OVERRIDES += \
+    pm.sleep_mode=1
+
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=libqti-perfd-client.so \
