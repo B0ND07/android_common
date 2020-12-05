@@ -38,6 +38,13 @@ persist.data.wda.enable=true
 persist.rmnet.data.enable=true
 ro.use_data_netmgrd=true
 
+# Google keyboard
+ro.com.google.ime.height_ratio=1.1
+ro.com.google.ime.kb_pad_port_l=7
+ro.com.google.ime.kb_pad_port_r=7
+ro.com.google.ime.kb_pad_land_l=14
+ro.com.google.ime.kb_pad_land_r=14
+
 # Graphics
 debug.sf.enable_hwc_vds=1
 debug.sf.latch_unsignaled=1
