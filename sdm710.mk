@@ -185,6 +185,11 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc \
     apex_metadata.rc
 
+# Codec2 modules
+PRODUCT_PACKAGES += \
+    com.android.media.swcodec \
+    libsfplugin_ccodec
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.2-service \
