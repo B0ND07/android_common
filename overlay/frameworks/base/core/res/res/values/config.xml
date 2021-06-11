@@ -423,9 +423,6 @@
     <string name="db_default_sync_mode">OFF</string>
     <string name="db_wal_sync_mode">OFF</string>
 
-    <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->
-    <bool name="config_cleanupUnusedFingerprints">false</bool>
-
     <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
     <integer name="config_screenRecorderMaxFramerate">60</integer>
 
@@ -447,8 +444,5 @@
     <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
     <string name="config_SmartChargingSupspendValue" translatable="false">1</string>
     <string name="config_SmartChargingResumeValue" translatable="false">0</string>
-
-    <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
-    <bool name="config_zramWriteback">true</bool>
 
 </resources>
