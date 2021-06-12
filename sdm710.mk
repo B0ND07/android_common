@@ -16,7 +16,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
 # Vendor properties
--include $(LOCAL_PATH)/vendor_props.mk
+-include $(LOCAL_PATH)/vendor_prop.mk
 
 # Additional native libraries
 PRODUCT_COPY_FILES += \
