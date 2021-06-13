@@ -437,4 +437,14 @@
     <string name="config_SmartChargingSupspendValue" translatable="false">1</string>
     <string name="config_SmartChargingResumeValue" translatable="false">0</string>
 
+    <!-- Display low battery warning when battery level dips to this value.
+         Also, the battery stats are flushed to disk when we hit this level.  -->
+    <integer name="config_criticalBatteryWarningLevel">10</integer>
+
+    <!-- Display low battery warning when battery level dips to this value -->
+    <integer name="config_lowBatteryWarningLevel">20</integer>
+
+    <!-- Display low battery warning when battery level dips to this value -->
+    <integer name="config_lowBatteryWarningLevel">20</integer>
+
 </resources>
