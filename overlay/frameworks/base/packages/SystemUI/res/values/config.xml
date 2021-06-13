@@ -34,7 +34,7 @@
     <item name="proximity_sensor_threshold" translatable="false" format="float" type="dimen">5.0</item>
 
     <!-- Allow devices override audio panel location to the left side -->
-    <bool name="config_audioPanelOnLeftSide">true</bool>
+    <bool name="config_audioPanelOnLeftSide">false</bool>
 
     <!-- FPSInfoService Fps file path -->
     <string name="config_fpsInfoSysNode" translatable="false">/sys/class/drm/sde-crtc-0/measured_fps</string>
