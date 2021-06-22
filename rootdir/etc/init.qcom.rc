@@ -298,7 +298,8 @@ on boot
     mkdir /data/vendor/sensors
     chown system system /data/vendor/sensors
 
-    setprop init.svc.console stopped
+    # Services
+    stop console
 
 # msm specific files that need to be created on /data
 on post-fs-data
