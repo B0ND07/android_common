@@ -470,4 +470,14 @@
 
     <!-- Screen off delay --> 
     <integer name="config_screen_off_delay">0</integer>
+
+    <!-- Enable Night display, which requires HWC 2.0. -->
+    <bool name="config_nightDisplayAvailable">true</bool> 
+
+    <!-- Minimum color temperature in Kelvin, supported by Night display. --> 
+    <integer name="config_nightDisplayColorTemperatureMin">2096</integer> 
+ 
+    <!-- Default color temperature,  in Kelvin, to tint the screen  when Night display is activated. -->
+    <integer  name="config_nightDisplayColorTemperatureDefault">2850</integer>
+
 </resources>
