@@ -144,7 +144,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
     libxml2 \
-    GcamGo
+    Snap
 
 # CNE
 PRODUCT_PACKAGES += \
@@ -230,11 +230,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl:64 \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.3-service.clearkey
-
-# Doze
-PRODUCT_PACKAGES += \
-    KharaMeParts \
-    KharaMeDirac
 
 # Fingerprint
 PRODUCT_PACKAGES += \
