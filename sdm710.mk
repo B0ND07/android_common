@@ -376,10 +376,6 @@ PRODUCT_PACKAGES += \
    libtflite \
    libtextclassifier_hash
 
-# Recorder
-PRODUCT_PACKAGES += \
-    OPScreenRecorder
-
 # Remove Unwanted Packages
 PRODUCT_PACKAGES += \
     RemovePackages
